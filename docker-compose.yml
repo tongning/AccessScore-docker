@@ -1,7 +1,7 @@
 version: '3'
 services:
   db:
-    image: "postgres:9.6.5"
+    image: "mdillon/postgis"
     volumes:
       - "dbdata:/var/lib/postgresql/data"
     env_file:
