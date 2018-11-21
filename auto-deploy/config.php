@@ -18,7 +18,7 @@ $PROD_PATH = '/'; //The url path where the production application is hosted, ple
 $TEST_MODE = 'master'; //'branch name' OR keyword 'TAG
 $PROD_MODE = 'TAG'; //'branch name' OR keyword 'TAG'
 
-$AUTO_DEPLOY_REPO_URL = 'https://github.com/mechanicjay/AccessScore-docker.git'; //the ssh repo url of your auto-deploy aproject
+$AUTO_DEPLOY_REPO_URL = 'git@github.com:mechanicjay/AccessScore-docker.git'; //the ssh repo url of your auto-deploy aproject
 
 $USE_DOCKER = TRUE; // Set to FALSE for just doing code pulls without a docker container
 
