@@ -1,4 +1,4 @@
-version: '3'
+version: '2'
 services:
   db:
     image: "mdillon/postgis"
@@ -22,7 +22,7 @@ services:
   nginx:
     image: "nginx:1.13.5"
     ports:
-      - "8080:80"
+      - "127.0.0.1:8579:80"
     volumes:
       - ./conf.d:/etc/nginx/conf.d
     networks:
